@@ -1,0 +1,25 @@
+GET http://localhost:3000/people
+###
+
+POST http://localhost:3000/people
+Content-Type: application/json
+
+{
+    "firstname": "uiop",
+    "lastname": "klo",
+    "age": 20
+}
+
+###
+DELETE http://localhost:3000/people/64439263dd9deeb270e9b18a
+
+###
+GET http://localhost:3000/people/64439236dd9deeb270e9b188
+
+###
+PATCH http://localhost:3000/people/6443cf9f0a1edbef46804aeb
+Content-Type: application/json
+
+{
+    "firstname": "QWY"
+}
